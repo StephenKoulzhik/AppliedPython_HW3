@@ -20,7 +20,6 @@ origins = [
     "http://127.0.0.1:8000",
 ]
 
-# Add CORS middleware
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,
